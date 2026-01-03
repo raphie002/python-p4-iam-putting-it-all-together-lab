@@ -1,3 +1,4 @@
+// client/src/styles/Error.js
 import styled from "styled-components";
 
 function Error({ children }) {

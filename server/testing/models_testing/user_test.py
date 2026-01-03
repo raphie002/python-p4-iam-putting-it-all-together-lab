@@ -1,5 +1,6 @@
+# server/testing/models_testing/user_test.py
 from sqlalchemy.exc import IntegrityError
-import pytest
+import pytest # type: ignore
 
 from app import app
 from models import db, User, Recipe

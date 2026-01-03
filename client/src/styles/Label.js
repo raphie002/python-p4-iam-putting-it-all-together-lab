@@ -1,3 +1,4 @@
+// client/src/styles/Label.js
 import styled from "styled-components";
 
 const Label = styled.label`

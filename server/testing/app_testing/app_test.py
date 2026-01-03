@@ -1,6 +1,7 @@
-from faker import Faker
+# server/testing/app_testing/app_test.py
+from faker import Faker # type: ignore
 import flask
-import pytest
+import pytest # type: ignore
 from random import randint, choice as rc
 
 from app import app

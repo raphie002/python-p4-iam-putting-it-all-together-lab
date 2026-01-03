@@ -1,3 +1,4 @@
+// client/src/styles/Box.js
 import styled from "styled-components";
 
 const Box = styled.div`

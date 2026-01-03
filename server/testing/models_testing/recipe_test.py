@@ -1,4 +1,5 @@
-import pytest
+# server/testing/models_testing/recipe_test.py
+import pytest # type: ignore
 from sqlalchemy.exc import IntegrityError
 
 from app import app

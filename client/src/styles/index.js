@@ -1,3 +1,4 @@
+// client/src/styles/index.js
 import Box from "./Box";
 import Button from "./Button";
 import FormField from "./FormField";

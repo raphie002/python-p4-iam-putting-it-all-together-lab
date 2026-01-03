@@ -1,8 +1,9 @@
+# server/config.py
 from flask import Flask
-from flask_bcrypt import Bcrypt
-from flask_migrate import Migrate
-from flask_restful import Api
-from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt # type: ignore
+from flask_migrate import Migrate # type: ignore
+from flask_restful import Api # type: ignore
+from flask_sqlalchemy import SQLAlchemy # type: ignore
 from sqlalchemy import MetaData
 
 app = Flask(__name__)
